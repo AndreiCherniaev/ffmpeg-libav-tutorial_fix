@@ -3,6 +3,7 @@
 [🇪🇸](/README-es.md "Spanish")
 [🇻🇳](/README-vn.md "Vietnamese")
 [🇧🇷](/README-pt.md "Portuguese")
+[🇷🇺](/README-ru.md "Russian")
 
 [![license](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg)](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg)
 
@@ -191,7 +192,7 @@ bunny_1080p_60fps.ts
 
 **Why?** people will try to watch your video in a `2G` (edge) connection using a less powerful smartphone or in a `fiber` Internet connection on their 4K TVs therefore you should offer more than one rendition of the same video with different bit rate.
 
-**How?** producing a rendition with bit rate between 3856K and 2000K.
+**How?** producing a rendition with bit rate between 964K and 3856K.
 ```bash
 $ ffmpeg \
 -i bunny_1080p_60fps.mp4 \
